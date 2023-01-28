@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestValidLogin(failed)">
+    <parameter name="password" value="manager"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="Url" value="http://desktop-7r54cv9/login.do"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="testNgPack.TestValidLogin">
+        <methods>
+          <include name="setUp"/>
+          <include name="validLogin"/>
+          <include name="team"/>
+        </methods>
+      </class> <!-- testNgPack.TestValidLogin -->
+    </classes>
+  </test> <!-- TestValidLogin(failed) -->
+</suite> <!-- Failed suite [Suite] -->

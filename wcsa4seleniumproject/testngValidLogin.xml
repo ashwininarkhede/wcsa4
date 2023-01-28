@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="TestValidLogin">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="Url" value="http://desktop-7r54cv9/login.do"></parameter>
+  <parameter name="username" value="admin"></parameter>
+  <parameter name="password" value="manager"></parameter>
+    <classes>
+      <class name="testNgPack.TestValidLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

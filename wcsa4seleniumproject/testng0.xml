@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNgPack.Demo"/>
+      <class name="testNGPack2.Class6"/>
+      <class name="testNgPack.Sumo"/>
+      <class name="testNGPack2.Class7"/>
+      <class name="testNgPack.NewTest"/>
+      <class name="testNGPack2.PriorityClass"/>
+      <class name="testNGPack2.Flag3"/>
+      <class name="testNGPack2.Flag4"/>
+      <class name="testNgPack.Remo"/>
+      <class name="testNGPack2.NoAnnotation"/>
+      <class name="testNGPack2.Flag6"/>
+      <class name="testNGPack2.NewTest"/>
+      <class name="testNGPack2.Class2"/>
+      <class name="testNGPack2.Class3"/>
+      <class name="testNGPack2.Class4"/>
+      <class name="testNGPack2.Class5"/>
+      <class name="testNGPack2.Class1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
